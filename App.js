@@ -5,7 +5,7 @@ import Titulo from './Componentes/Titulo';
 export default function App(){
   return(
     <ScrollView style={{ padding:20 }}>
-
+    <titulo />
 
     </ScrollView>
   )
