@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-native";
 
-export default function FotoPerfil({url}){
+export default function FotoPerfil(){
     return(
         <Image
             source={require('../img/base.jpg')}
