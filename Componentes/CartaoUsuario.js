@@ -1,5 +1,7 @@
 import React from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image} from "react-native";
+import estilos from '../style/style';
+import fotos from '../img/fotos';
 
 export default function CartaoUsuario({ nome, descricao, imagem }) {
     return (
@@ -12,34 +14,4 @@ export default function CartaoUsuario({ nome, descricao, imagem }) {
     );
 }
 
-const estilos = StyleSheet.create({
-    cartao: {
-        backgroundColor: '#FFF',
-        padding: 16,
-        marginTop: 15,
-        borderRadius: 10,
-        alignItems: 'center',
-        shadowColor: '#000',
-        shadowOpacity: 0.1,
-        shadowOffset: { width: 0, height: 2 },
-        shadowRadius: 5,
-        elevation: 5,
-    },
-    foto: {
-        width: 80,
-        height: 80,
-        borderRadius: 40,
-        marginBottom: 10,
-    },
 
-    nome: {
-        fontSize: 18,
-        fontWeight: 'bold',
-    },
-
-    descricao: {
-        fontSize: 14,
-        color: '#555',
-        textAlign: 'center',
-    },
-})
