@@ -7,6 +7,8 @@ import FotoPerfil from '/Componentes/FotoPerfil';
 export default function App(){
   return<ScrollView>
     <Titulo />
+    <Saudacao nome = 'Guilherme' />
+
 
     </ScrollView>
   
