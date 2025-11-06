@@ -14,7 +14,7 @@ export default function App() {
     <CartaoUsuario
       nome='cachorrão'
       descricao='progamador'
-      img='perfil00'
+      img='perfil01'
     />
   </ScrollView>
 
