@@ -8,13 +8,37 @@ import CartaoUsuario from "./Componentes/CartaoUsuario";
 export default function App() {
   return <ScrollView>
     <Titulo />
-    <Saudacao nome='Plk' />
+    <Saudacao nome='nego trufa' />
     <FotoPerfil />
 
     <CartaoUsuario
-      nome='cachorrão'
-      descricao='progamador'
-      img='perfilBase'
+      nome='Marcelinho Carioca'
+      descricao='Dono da Obra'
+      img='perfil00'
+    />
+
+     <CartaoUsuario
+      nome='Marília Mendonça'
+      descricao='Cantora'
+      img='perfil01'
+    />
+
+     <CartaoUsuario
+      nome='Laurinha do Camarão'
+      descricao='Vendedora'
+      img='perfil02'
+    />
+
+     <CartaoUsuario
+      nome='Willian'
+      descricao='Servente'
+      img='perfil03'
+    />
+
+     <CartaoUsuario
+      nome='Jerson'
+      descricao='Padeiro'
+      img='perfil04'
     />
   </ScrollView>
 
