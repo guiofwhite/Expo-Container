@@ -15,6 +15,7 @@ export default function CartãoUsuario({ nome, descricao, img }) {
 const estilos = StyleSheet.create({
     cartao: {
         backgroundColor: '#e1f7f7',
+        display: felx,
         padding: 16,
         marginTop: 15,
         borderRadius: 10,
