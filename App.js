@@ -12,7 +12,7 @@ export default function App() {
     <FotoPerfil />
 
     <CartaoUsuario
-      nome='Plk'
+      nome='cachorrão'
       descricao='progamador'
       img='perfil00'
     />
