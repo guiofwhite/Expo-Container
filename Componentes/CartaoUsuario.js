@@ -16,6 +16,7 @@ const estilos = StyleSheet.create({
     cartao: {
         backgroundColor: '#e1f7f7',
         display: 'flex',
+        justifyContent: 'right',
         padding: 16,
         marginTop: 15,
         borderRadius: 10,
