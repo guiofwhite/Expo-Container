@@ -4,7 +4,7 @@ import { Image } from "react-native";
 export default function FotoPerfil() {
     return (
         <Image
-            source={require('../img/2.jpg')}
+            source={require('../img/base.jpg')}
             style={{ width: 100, height: 100, borderRadius: 50, marginBottom: 10 }}
         />
     );
